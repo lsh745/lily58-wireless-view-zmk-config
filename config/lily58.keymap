@@ -71,11 +71,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans             &trans    &trans        &trans           &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_SCROLL_UP    &kp HOME  &kp UP_ARROW  &kp END          &kp INS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_SCROLL_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp DEL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans    &trans        &trans           &trans   &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans             &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans             &trans     &trans        &trans           &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_SCROLL_UP    &kp HOME   &kp UP_ARROW  &kp END          &kp INS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_SCROLL_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp DEL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS          &kp EQUAL  &kp GRAVE     &trans           &trans   &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans             &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
