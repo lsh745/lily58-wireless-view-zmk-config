@@ -14,7 +14,7 @@
 
         Layer2 {
             bindings = <&mo 2>;
-            key-positions = <56 51>;
+            key-positions = <56 52>;
         };
     };
 
