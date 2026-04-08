@@ -53,7 +53,7 @@
             bindings = <
 &trans  &kp F1      &kp F2    &kp F3      &kp F4         &kp F5                           &kp F6          &kp F7          &kp F8          &kp F9           &kp F10       &trans
 &trans  &kp F11     &kp F12   &kp F13     &kp F14        &kp F15                          &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp K_VOL_UP  &trans
-&trans  &mkp MB5    &mkp MB4  &mkp MB2    &mkp MB1       &mkp MB3                         &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp K_VOL_DN  &trans
+&trans  &mkp MB4    &mkp MB5  &mkp MB2    &mkp MB1       &mkp MB3                         &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp K_VOL_DN  &trans
 &trans  &kp K_PREV  &kp K_PP  &kp K_NEXT  &kp C_BRI_INC  &kp C_BRI_DEC  &trans    &trans  &kp LBKT        &kp RBKT        &kp SEMI        &kp BACKSLASH    &kp K_MUTE    &trans
                               &trans      &trans         &trans         &trans    &trans  &trans          &trans          &trans
             >;
