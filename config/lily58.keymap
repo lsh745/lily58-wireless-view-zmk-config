@@ -34,7 +34,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        lower_layer {
+        MouseFunction {
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       |       |
             // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
@@ -54,7 +54,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        raise_layer {
+        ArrowCluster {
             // ------------------------------------------------------------------------------------------------------------
             // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |   7   |   8   |  9   |   0   |       |
@@ -64,11 +64,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_PREV         &kp K_PP   &kp K_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_SCROLL_UP    &kp HOME   &kp UP_ARROW  &kp END               &kp INS               &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_SCROLL_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT_ARROW       &kp DEL               &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS          &kp EQUAL  &kp GRAVE     &trans                &trans                &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans             &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_PREV     &kp K_PP   &kp K_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END               &kp INS               &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT_ARROW       &kp DEL               &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS      &kp EQUAL  &kp GRAVE     &trans                &trans                &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans         &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
