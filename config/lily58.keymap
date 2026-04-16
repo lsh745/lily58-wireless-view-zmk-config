@@ -24,11 +24,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                       &kp N6       &kp N7  &kp N8      &kp N9   &kp N0    &kp DELETE
-&kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                        &kp Y        &kp U   &kp I       &kp O    &kp P     &kp BSPC
-&kp LSHFT  &kp A   &kp S   &kp D     &kp F     &kp G                        &kp H        &kp J   &kp K       &kp L    &kp SQT   &kp RSHFT
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp V     &kp B        &none    &none  &kp N        &kp M   &kp COMMA   &kp DOT  &kp FSLH  &kp RCTRL
-                           &kp LALT  &kp LGUI  &lt 3 SPACE  &none    &none  &lt 1 ENTER  &mo 2   &lt 4 RALT
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                     &kp N6       &kp N7  &kp N8      &kp N9   &kp N0    &kp DELETE
+&kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                      &kp Y        &kp U   &kp I       &kp O    &kp P     &kp BSPC
+&kp LSHFT  &kp A   &kp S   &kp D     &kp F     &kp G                      &kp H        &kp J   &kp K       &kp L    &kp SQT   &kp RSHFT
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp V     &kp B      &none    &none  &kp N        &kp M   &kp COMMA   &kp DOT  &kp FSLH  &kp RCTRL
+                           &kp LALT  &kp LGUI  &kp SPACE  &none    &none  &lt 1 ENTER  &mo 2   &lt 2 RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -44,17 +44,17 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                      &kp F6          &kp F7          &kp F8          &kp F9           &kp F10       &trans
-&trans  &kp F11   &kp F12   &kp F13   &kp F14   &kp F15                     &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp K_VOL_UP  &trans
-&trans  &mkp MB4  &mkp MB5  &mkp MB2  &mkp MB1  &mkp MB3                    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp K_VOL_DN  &trans
-&trans  &trans    &trans    &trans    &trans    &trans    &trans    &trans  &kp LBKT        &kp RBKT        &kp SEMI        &kp BACKSLASH    &kp K_MUTE    &trans
+&trans  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                      &kp F6          &kp F7          &kp F8          &kp F9           &kp F10        &trans
+&trans  &kp F11   &kp F12   &kp F13   &kp F14   &kp F15                     &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp BACKSLASH  &trans
+&trans  &mkp MB4  &mkp MB5  &mkp MB2  &mkp MB1  &mkp MB3                    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp SEMI       &trans
+&trans  &trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans          &trans          &trans          &trans           &trans         &trans
                             &trans    &trans    &trans    &trans    &trans  &trans          &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        ArrowCluster {
+        ArrowClusterNP {
             // ------------------------------------------------------------------------------------------------------------
             // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |   7   |   8   |  9   |   0   |       |
@@ -64,34 +64,14 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_PREV     &kp K_PP   &kp K_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END               &kp INS               &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT_ARROW       &kp DEL               &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS      &kp EQUAL  &kp GRAVE     &trans                &trans                &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans         &trans     &trans
+&trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp K_PREV     &kp K_PP      &kp K_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
+&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS         &kp EQUAL                            &kp PAGE_UP    &kp HOME      &kp UP_ARROW  &kp END               &kp INS               &trans
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0   &kp GRAVE                            &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT_ARROW       &trans                &trans
+&trans  &trans           &trans           &trans           &trans            &trans             &trans    &trans  &kp K_VOL_DN   &kp K_VOL_UP  &kp K_MUTE    &trans                &trans                &trans
+                                          &trans           &trans            &trans             &trans    &trans  &trans         &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
-
-        Numberpad {
-            display-name = "Raise";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_0  &trans           &trans           &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        extra_1 {
-            status = "reserved";
-            sensor-bindings = <&inc_dec_kp 0 0>;
-        };
-
-        extra_2 { status = "reserved"; };
     };
 };
