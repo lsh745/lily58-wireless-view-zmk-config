@@ -84,9 +84,9 @@
         Gaming {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans          &trans          &trans           &trans     &trans
-&trans  &kp I   &kp Q   &kp W   &kp E   &kp R                     &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4   &trans
-&trans  &kp P   &kp A   &kp S   &kp D   &kp F                     &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5   &trans
-&trans  &kp M   &kp Z   &kp X   &kp C   &kp V   &trans    &trans  &kp ENTER       &kp F5          &kp F9          &kp F12          &mkp MCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp ENTER       &kp F5          &kp F9          &kp F12          &mkp MCLK  &trans
                         &trans  &trans  &trans  &trans    &trans  &mkp LCLK       &mkp RCLK       &trans
             >;
         };
