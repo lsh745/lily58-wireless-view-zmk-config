@@ -11,12 +11,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv {
-    time-to-max-speed-ms = <300>;    /* 최고 속도 도달 시간 (기본값: 300ms) */
-    acceleration-exponent = <1>;     /* 가속도 지수 (0: 정속, 1: 선형 가속) */
+    delay-ms = <0>;
+    time-to-max-speed-ms = <100>;
+    acceleration-exponent = <1>;
 };
 
-&mmv_input_listener {
-    input-processors = <&zip_xy_scaler 2 1>;  /* 속도 배율: 분자(2), 분모(1) -> 2배속 */
+&mmv_behavior {
+    delay-ms = <0>;
+    time-to-max-speed-ms = <100>;
+    acceleration-exponent = <1>;
 };
 
 / {
