@@ -16,7 +16,7 @@
     acceleration-exponent = <1>;
 };
 
-&mmv_behavior {
+&msc {
     delay-ms = <0>;
     time-to-max-speed-ms = <100>;
     acceleration-exponent = <1>;
