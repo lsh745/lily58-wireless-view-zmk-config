@@ -15,13 +15,13 @@
 
 &mmv {
     delay-ms = <0>;
-    time-to-max-speed-ms = <100>;
+    time-to-max-speed-ms = <200>;
     acceleration-exponent = <1>;
 };
 
 &msc {
     delay-ms = <0>;
-    time-to-max-speed-ms = <100>;
+    time-to-max-speed-ms = <200>;
     acceleration-exponent = <1>;
 };
 
