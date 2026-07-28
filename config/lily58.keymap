@@ -65,8 +65,8 @@
             display-name = "Lower";
             bindings = <
 &trans  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                      &kp F6          &kp F7          &kp F8          &kp F9           &kp F10        &trans
-&trans  &kp F11   &kp F12   &kp F13   &kp F14   &kp F15                     &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp BACKSLASH  &trans
-&trans  &mkp MB4  &mkp MB5  &mkp MB2  &mkp MB1  &mkp MB3                    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp SEMI       &trans
+&trans  &kp F11   &kp F12   &kp F13   &kp F14   &kp F15                     &msc SCRL_DOWN  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp BACKSLASH  &trans
+&trans  &mkp MB4  &mkp MB5  &mkp MB2  &mkp MB1  &mkp MB3                    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp SEMI       &trans
 &trans  &trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans          &trans          &trans          &trans           &trans         &trans
                             &trans    &trans    &trans    &trans    &trans  &trans          &trans          &trans
             >;
@@ -85,8 +85,8 @@
             display-name = "Raise";
             bindings = <
 &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp K_PREV     &kp K_PP      &kp K_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
-&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS         &kp EQUAL                            &kp PAGE_DOWN  &kp HOME      &kp UP_ARROW  &kp END               &kp INS               &trans
-&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0   &kp GRAVE                            &kp PAGE_UP    &kp LEFT      &kp DOWN      &kp RIGHT_ARROW       &trans                &trans
+&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS         &kp EQUAL                            &kp PAGE_UP    &kp HOME      &kp UP_ARROW  &kp END               &kp INS               &trans
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0   &kp GRAVE                            &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT_ARROW       &trans                &trans
 &trans  &trans           &trans           &trans           &trans            &trans             &trans    &trans  &kp K_VOL_DN   &kp K_VOL_UP  &kp K_MUTE    &trans                &trans                &trans
                                           &trans           &trans            &trans             &trans    &trans  &trans         &trans        &trans
             >;
