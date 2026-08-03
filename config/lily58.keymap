@@ -29,7 +29,7 @@
         compatible = "zmk,combos";
 
         L3 {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&tog 4>;
             key-positions = <57 50>;
         };
     };
@@ -111,8 +111,18 @@
 &kp DEL    &kp N6  &kp N7  &kp N8     &kp N9   &kp N0                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans
 &kp BSPC   &kp Y   &kp U   &kp I      &kp O    &kp P                       &bt BT_CLR    &trans        &trans        &trans  &trans  &trans
 &kp RSHFT  &kp H   &kp J   &kp K      &kp L    &kp SQT                     &trans        &trans        &trans        &trans  &trans  &trans
-&kp RCTRL  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &kp F20       &trans        &trans        &trans  &trans  &trans
+&kp RCTRL  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &none         &trans        &trans        &trans  &trans  &trans
                            &trans     &trans   &trans    &trans    &trans  &trans        &trans        &trans
+            >;
+        };
+
+        DCSS {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp O      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp Q  &kp R
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp TAB    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp Z  &kp A
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp G      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp V  &kp RSHFT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp COMMA  &kp DOT          &kp X            &kp I            &kp M  &kp RCTRL
+                        &trans  &trans  &trans  &trans    &trans  &kp ENTER  &trans           &kp GRAVE
             >;
         };
     };
